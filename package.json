@@ -1,0 +1,15 @@
+{
+  "name": "grand-array",
+  "version": "1.0.6",
+  "description": "Easy to use Array Manipulator with tons of Array Operations",
+  "main": "index.js",
+  "keywords": [
+    "array",
+    "manipulation",
+    "array manipulation",
+    "node",
+    "npm"
+  ],
+  "author": "jaipack17",
+  "license": "ISC"
+}

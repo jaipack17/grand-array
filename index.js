@@ -49,6 +49,9 @@ module.exports = {
             return arr2;
         }
     },
+    clone : function(arr){
+        return arr;
+    },
     findMany : function(arr){
         var ans = "";
         var count = 0;

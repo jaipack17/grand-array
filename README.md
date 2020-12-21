@@ -9,13 +9,13 @@ npm page: https://www.npmjs.com/package/grand-array
 Use the package manager [npm](https://www.npmjs.com/) to install grand-array
 
 ```bash
-npm i grand-array
+$ npm i grand-array
 ```
 
 ## OR
 
 ```bash
-npm install grand-array
+$ npm install grand-array
 ```
 
 # Require

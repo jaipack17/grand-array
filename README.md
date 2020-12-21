@@ -1,6 +1,8 @@
 # grand-array
 
-Easy to use Array Manipulator with tons of Array Operations
+Easy to use Array Manipulator with tons of Array 
+
+npm page: https://www.npmjs.com/package/grand-array
 
 ## Installation
 

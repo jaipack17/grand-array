@@ -1,8 +1,10 @@
 # grand-array
 
-Easy to use Array Manipulator with tons of Array 
+Easy to use Array Manipulator with tons of Array Operations
 
-npm page: https://www.npmjs.com/package/grand-array
+github: https://github.com/jaipack17/grand-array
+
+Update: .countOfPairs() added
 
 ## Installation
 
@@ -26,7 +28,7 @@ const GrandArray = require("grand-array")
 
 # Functions
 
-## Finding
+## Searching
 
 ```javascript
 
@@ -42,6 +44,8 @@ GrandArray.findMany(array,value1,value2,valueN) //returns booleans
 GrandArray.connect(array1,array2) //joins both arrays
 
 GrandArray.merge(array1,array2) //merges the data of both arrays
+
+GrandArray.clone(array) //clones the specified array
 
 ```
 ## Removing and Adding 
@@ -64,7 +68,15 @@ GrandArray.bombArray(array) //removes all the indexes in the array
 
 ```
 
-## Sorting And Reversing
+## JSON Objects
+
+```javascript
+
+GrandArray.toJSON(array) //creates a .json file containing the same object
+
+```
+
+## Rearranging 
 
 ```javascript
 GrandArray.sortAscending(array) //sorts the array in ascending order
@@ -103,6 +115,8 @@ GrandArray.countOfNegative(array) //returns count of negative values in the arra
 GrandArray.countOfZero(array) //returns count of zeros in the array
 
 GrandArray.countOfPrime(array) //returns count of prime numbers in the array
+
+GrandArray.countOfPairs(array) //returns count of pairs that can be formed in an array
 
 ```
 
